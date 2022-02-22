@@ -8,6 +8,7 @@ Note: all the code in Solnet.SequenceEnforcer is generated. For this specific ca
 * In the SequenceEnforcerProgram methods, allocate a smaller _data buffer with stackalloc (these ixs are 80 bytes for set & reset, 105+Encoding.UTF8.GetByteCount(sym) bytes for acc initialization)
 * ResetSequenceNumberAccounts & CheckAndSetSequenceNumberAccounts could be collapsed into single class
 * Removal of SequenceEnforcerClient.SendCheckAndSetSequenceNumberAsync if not used
+* Have the PDA derivation function abstracted away as a (static) method in the client
 
 # Requirements
 
