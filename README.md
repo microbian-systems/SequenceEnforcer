@@ -1,38 +1,34 @@
-# Solnet.Template
+# Solnet.SequenceEnforcer
 
-Template repository to easily bootstrap new program implementations using Solnet.
+SequenceEnforcer repository with automatic code generated.
 
-## Instructions
+Solnet.SequenceEnforcer.Examples contains small exemple how to create and submit instructions.
 
-To quickly bootstrap a new project using the current "standard" project structure for program implementations using Solnet do the following:
+Note: all the code in Solnet.SequenceEnforcer is generated. For this specific case, a few optimizations could be done:
+* In the SequenceEnforcerProgram methods, allocate a smaller _data buffer with stackalloc (these ixs are 80 bytes for set & reset, 105+Encoding.UTF8.GetByteCount(sym) bytes for acc initialization)
+* ResetSequenceNumberAccounts & CheckAndSetSequenceNumberAccounts could be collapsed into single class
+* Removal of SequenceEnforcerClient.SendCheckAndSetSequenceNumberAsync if not used
 
-- Click the `Use this template` button in the repository page.
+# Requirements
 
-- Choose the desired name for the project (i.e. `Solnet.Serum`, `Solnet.Mango`, `Solnet.Pyth`).
-
-- Clone the newly created repository.
-
-- Change every `Solnet.Template` occurrence in the repository to the desired project name:
-
-    - Namespaces 
-      - `Solnet.Template.Examples` already features the `IRunnableExample` and the code to get the classes which implement the interface in the assembly
-    - Directories
-    - SharedBuildProperties
-    - `build.cake`
-  
-- Add a "logo" to the `assets` directory.
-
-- Remove the `README.md` file and rename `PLACEHOLDER.md` to `README.md`.
-
-- As you bootstrap the project, pipelines etc, change the badges accordingly.
-
-- For generic guidelines on how you should bootstrap the project itself, in order to easily maintain the codebase of a program client implementation, see:
-  - [Solnet.Programs](https://github.com/bmresearch/Solnet/tree/master/src/Solnet.Programs)
-  - [Solnet.Serum](https://github.com/bmresearch/Solnet.Serum)
-
-- ??????
-
-- Profit.
+This code was generated using net6.0, but should work as is in net5.0.
 
 
 
+# Support
+
+Consider supporting us:
+
+Sol Address: **oaksGKfwkFZwCniyCF35ZVxHDPexQ3keXNTiLa7RCSp**
+[Mango Ref Link](https://trade.mango.markets/?ref=MangoSharp)
+
+
+
+## Contributors
+
+* **Hugo** - *Maintainer* - [murlokito](https://github.com/murlokito) [@hoakbuilds](twitter.com/hoakbuilds)
+* **Tiago** - *Maintainer* - [tiago](https://github.com/tiago18c) [@qtmoses](twitter.com/qtmoses)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/bmresearch/Solnet.Serum/blob/master/LICENSE) file for details
