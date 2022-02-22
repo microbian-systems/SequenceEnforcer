@@ -1,6 +1,6 @@
 # Solnet.SequenceEnforcer
 
-SequenceEnforcer repository with automatic code generated.
+SequenceEnforcer repository with code generated using the soon to be release Solnet.Anchor from the anchor IDL.
 
 Solnet.SequenceEnforcer.Examples contains small exemple how to create and submit instructions.
 
@@ -19,15 +19,15 @@ This code was generated using net6.0, but should work as is in net5.0.
 
 Consider supporting us:
 
-Sol Address: **oaksGKfwkFZwCniyCF35ZVxHDPexQ3keXNTiLa7RCSp**
-[Mango Ref Link](https://trade.mango.markets/?ref=MangoSharp)
+* Sol Address: **oaksGKfwkFZwCniyCF35ZVxHDPexQ3keXNTiLa7RCSp**
+* [Mango Ref Link](https://trade.mango.markets/?ref=MangoSharp)
 
 
 
 ## Contributors
 
-* **Hugo** - *Maintainer* - [murlokito](https://github.com/murlokito) [@hoakbuilds](twitter.com/hoakbuilds)
-* **Tiago** - *Maintainer* - [tiago](https://github.com/tiago18c) [@qtmoses](twitter.com/qtmoses)
+* **Hugo** - *Maintainer* - [murlokito](https://github.com/murlokito) - [@hoakbuilds](twitter.com/hoakbuilds)
+* **Tiago** - *Maintainer* - [tiago](https://github.com/tiago18c) - [@qtmoses](twitter.com/qtmoses)
 
 ## License
 
