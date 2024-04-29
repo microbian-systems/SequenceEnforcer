@@ -8,7 +8,7 @@
     <ProjectReference Include="..\Solnet.SequenceEnforcer\Solnet.SequenceEnforcer.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Solnet.Rpc" Version="6.0.0" />
-    <PackageReference Include="Solnet.Wallet" Version="6.0.0" />
+    <PackageReference Include="Solnet.Rpc" Version="6.1.0" />
+    <PackageReference Include="Solnet.Wallet" Version="6.1.0" />
   </ItemGroup>
 </Project>
